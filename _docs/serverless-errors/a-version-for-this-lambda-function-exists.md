@@ -19,7 +19,7 @@ Use of certain Serverless plugins or rare glitches in Serverless Framework could
 
 #### Solution
 
-Most likely, this is an issue with your code.
+Most likely, this is an issue with your code. Changes that indirectly affect the code, like changing how environment variables are set (e.g. when moving to Seed secrets), can also cause this.
 
 A one time workaround for this issue is to make a dummy change in a function's code and deploy again.
 
